@@ -5,7 +5,7 @@
 //161 -> да
 Console.WriteLine("Введите число");
 int namber = Convert.ToInt32(Console.ReadLine());
-if (namber % 7 == 0 | namber % 23 == 0)
+if (namber % 7 == 0 & namber % 23 == 0)
 {
     Console.WriteLine("да, кратно");
 }
