@@ -10,7 +10,7 @@ if (numberA >= 100 & numberA <= 1000)
 {
     int numberB = numberA % 100;
     int res = numberB / 10;
-    Console.WriteLine(res);
+    Console.WriteLine($"Вторая цифра числа - {res}");
 }
 else
 {
