@@ -7,15 +7,15 @@
 Console.ReadLine().Split().Select(Convert.ToInt32).ToArray();
 
 
-Console.WriteLine("Введите координаты точки A по x");
-double xA = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координаты точки A по y");
-double yA = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координаты точки B по x");
-double xB = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите координаты точки B по y");
-double yB = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите координаты точки 1 по x");
+double x1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите координаты точки 1 по y");
+double y1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите координаты точки 2 по x");
+double x2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите координаты точки 2 по y");
+double y2 = Convert.ToDouble(Console.ReadLine());
 
-double res = Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2));
+double res = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
 
 Console.WriteLine($"{res:f2}");
