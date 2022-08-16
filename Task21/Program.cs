@@ -4,7 +4,8 @@
  A (7,-5); B (1,-1) -> 7,21
  √(xb - xa)2 + (yb - ya)2 */
 
-Console.ReadLine().Split().Select(Convert.ToInt32).ToArray();
+/*Console.ReadLine().Split().Select(Convert.ToInt32).ToArray(); вывод консоли пробел конвертирование и 
+запись в массив  */
 
 
 Console.WriteLine("Введите координаты точки 1 по x");
