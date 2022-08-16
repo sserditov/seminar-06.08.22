@@ -18,4 +18,4 @@ double y2 = Convert.ToDouble(Console.ReadLine());
 
 double res = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
 
-Console.WriteLine($"{res:f2}");
+Console.WriteLine($"{res:f2}"); /* f2 сколько занков после запятой */
