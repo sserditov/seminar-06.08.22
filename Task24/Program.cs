@@ -4,10 +4,13 @@
 8 -> 36 */
 
 Console.WriteLine("Введите число А");
-int A = Convert.ToInt32(Console.RedLine());
+int A = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
+int i;
 for (int i = 1; i <= A; i++) ;
 {
-    sum = sum + i; /* sum +=i */
+
+    /* sum = sum + i;*/
+    sum += i;
 }
-Console.WriteLine($"Сумма чиселот 1 до {A} = {sum}");
+Console.WriteLine($"Сумма чисел от 1 до {A} = {sum}");
