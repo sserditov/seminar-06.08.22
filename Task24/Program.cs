@@ -10,4 +10,4 @@ for (int i = 1; i <= A; i++) ;
 {
     sum = sum + i; /* sum +=i */
 }
-Console.WriteLine($"Сумма чиселот 1 до А = {sum}");
+Console.WriteLine($"Сумма чиселот 1 до {A} = {sum}");
