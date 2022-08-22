@@ -15,3 +15,7 @@ for (i = 1; i <= N; i++)
 }
 
 Console.WriteLine(res);
+else
+{
+    Console.WriteLine("Введено некоректное занчение N");
+}
